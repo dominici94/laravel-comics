@@ -89,6 +89,10 @@ main {
   background-color: #0c7cec;
   padding: 50px;
 }
+.top-footer .container-footer {
+  max-width: 1180px;
+  margin: 0 auto;
+}
 .top-footer ul {
   display: flex;
   justify-content: space-around;
@@ -115,32 +119,34 @@ main {
 .mid-footer {
   background-image: url("../img/footer-bg.jpg");
 }
-.mid-footer .container {
+.mid-footer .container-mid-foot {
+  max-width: 1180px;
+  margin: 0 auto;
   display: flex;
   color: white;
 }
-.mid-footer .container .mid-container {
+.mid-footer .container-mid-foot .mid-container {
   width: 50%;
   display: flex;
 }
-.mid-footer .container .mid-container .column {
+.mid-footer .container-mid-foot .mid-container .column {
   margin-right: 25px;
 }
-.mid-footer .container .mid-container .column h2 {
+.mid-footer .container-mid-foot .mid-container .column h2 {
   text-transform: uppercase;
   padding: 10px 0;
 }
-.mid-footer .container .mid-container .column ul {
+.mid-footer .container-mid-foot .mid-container .column ul {
   list-style: none;
 }
-.mid-footer .container .mid-container .column ul li a {
+.mid-footer .container-mid-foot .mid-container .column ul li a {
   text-decoration: none;
   color: gray;
 }
-.mid-footer .container .left {
+.mid-footer .container-mid-foot .left {
   padding: 50px 0;
 }
-.mid-footer .container .right {
+.mid-footer .container-mid-foot .right {
   background-image: url("../img/dc-logo-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -149,12 +155,14 @@ main {
 .bottom-footer {
   background-color: #1c1c1c;
 }
-.bottom-footer .container {
+.bottom-footer .container-btm {
+  max-width: 1180px;
+  margin: 0 auto;
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
 }
-.bottom-footer .container button {
+.bottom-footer .container-btm button {
   text-transform: uppercase;
   padding: 10px;
   background-color: #1c1c1c;
@@ -162,13 +170,14 @@ main {
   border-color: #0c7cec;
   cursor: pointer;
 }
-.bottom-footer .container .right-btm-container {
+.bottom-footer .container-btm .right-btm-container {
   width: 35%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.bottom-footer .container .right-btm-container a {
+.bottom-footer .container-btm .right-btm-container a {
+  color: #0c7cec;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;

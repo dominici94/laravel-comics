@@ -5,9 +5,7 @@
         </div>
         
         <nav>
-            {{-- <ul>
-                <li v-for="(link,index) in links" :key="index"><a :class="{active: link.current}" :href="link.url">{{link.text}}</a></li>
-            </ul> --}}
+            
             <ul>
                 <li><a href="#">Characters</a></li>
                 <li><a href="#" class="active">Comics</a></li>

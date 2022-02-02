@@ -1,6 +1,6 @@
 <footer>
     <div class="top-footer">
-        <div class="container">
+        <div class="container-footer">
                 <ul>
                     <li>
                         <a href="#">
@@ -47,7 +47,7 @@
         
     </div>
     <div class="mid-footer">
-        <div class="container">
+        <div class="container-mid-foot">
             <div class="mid-container left">
                     <div class="column">
                         <h2>dc comics</h2>
@@ -98,7 +98,7 @@
         </div>
     </div>
     <div class="bottom-footer">
-        <div class="container">
+        <div class="container-btm">
             <div class="left-btm-container">
                 <button>sign-up now!</button>
             </div>
