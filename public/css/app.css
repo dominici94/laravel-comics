@@ -6,12 +6,40 @@
 
 .container {
   max-width: 1180px;
-  padding: 0 10px;
   margin: 0 auto;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+header .container-header {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container-header nav {
+  line-height: 120px;
+}
+header .container-header ul {
+  list-style: none;
+}
+header .container-header ul li {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 10px;
+}
+header .container-header ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+header .container-header ul li .active {
+  color: #0c7cec;
+  border-bottom: 5px solid #0c7cec;
 }
 
 .jumbotron {
@@ -55,4 +83,93 @@ main {
 }
 .container .comics-list .comic-card img {
   width: 100%;
+}
+
+.top-footer {
+  background-color: #0c7cec;
+  padding: 50px;
+}
+.top-footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.top-footer ul li {
+  margin: 0 10px;
+}
+.top-footer ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.top-footer ul li a .img-container {
+  height: 50px;
+}
+.top-footer ul li a .img-container img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.mid-footer {
+  background-image: url("../img/footer-bg.jpg");
+}
+.mid-footer .container {
+  display: flex;
+  color: white;
+}
+.mid-footer .container .mid-container {
+  width: 50%;
+  display: flex;
+}
+.mid-footer .container .mid-container .column {
+  margin-right: 25px;
+}
+.mid-footer .container .mid-container .column h2 {
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.mid-footer .container .mid-container .column ul {
+  list-style: none;
+}
+.mid-footer .container .mid-container .column ul li a {
+  text-decoration: none;
+  color: gray;
+}
+.mid-footer .container .left {
+  padding: 50px 0;
+}
+.mid-footer .container .right {
+  background-image: url("../img/dc-logo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bottom-footer {
+  background-color: #1c1c1c;
+}
+.bottom-footer .container {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-footer .container button {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #1c1c1c;
+  color: white;
+  border-color: #0c7cec;
+  cursor: pointer;
+}
+.bottom-footer .container .right-btm-container {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom-footer .container .right-btm-container a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
 }
