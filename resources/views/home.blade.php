@@ -1,4 +1,3 @@
-
 @extends('layouts.base')
 
 @section('pageTitle')
@@ -6,6 +5,20 @@ Home
 @endsection
 
 @section('pageContent')
-<h1>home page</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repellendus consectetur provident exercitationem ducimus eligendi voluptates nulla labore praesentium quaerat. Vero quam nihil minus harum, provident non vel reprehenderit aperiam.</p>
+
+<div class="container">
+    <a href="#" class="top">current series</a>    
+    <div class="comics-list">
+
+        @foreach ($comics as $comic)
+            <div class="comic-card">
+                <img src="{{$comic["thumb"]}}" alt="{{$comic["series"]}}">
+                <h3>{{$comic["series"]}}</h3>
+            </div>
+        @endforeach
+        
+    </div>
+    <a href="#" class="down">load more</a>
+</div>
+
 @endsection

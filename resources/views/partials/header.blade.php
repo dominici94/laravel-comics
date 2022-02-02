@@ -13,4 +13,5 @@
             </li>
         </ul>
     </nav>
+    <img src="{{asset('img/dc-logo.png')}}" alt="logo">
 </header>

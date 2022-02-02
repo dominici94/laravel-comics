@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Orelega+One&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+
+.container {
+  position: relative;
+}
+.container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0c7cec;
+  padding: 15px 25px;
+  font-size: 20px;
+  position: absolute;
+}
+.container a.top {
+  top: -30px;
+}
+.container a.down {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .comics-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 0;
+}
+.container .comics-list .comic-card {
+  width: calc(16.6666666667% - 30px);
+  margin: 15px;
+  color: white;
+}
+.container .comics-list .comic-card img {
+  width: 100%;
+}
